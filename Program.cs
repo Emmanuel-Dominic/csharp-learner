@@ -1,5 +1,6 @@
 ﻿using System;
 using HelloWorld;
+using DataTypes;
 
 namespace csharp_learner
 {
@@ -9,6 +10,8 @@ namespace csharp_learner
         {
             Greeting greet = new Greeting();
             greet.GreetUser();
+            Data data = new Data();
+            data.Declare();
         }
     }
 }
