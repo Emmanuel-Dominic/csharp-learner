@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>csharp-learner</name>
+    </assembly>
+    <members>
+        <member name="M:csharp_learner.Program.Main(System.String[])">
+            XML Comment used to help provide documentation, with the below syntax
+            for more visit: https://docs.microsoft.com/en-us/dotnet/csharp/codedoc
+            <summary>
+            This is the main application function
+            </summary>
+            <param name="args">An array of string arguments from the command line</param>
+            <returns>
+            No return value
+            </returns>
+        </member>
+    </members>
+</doc>
