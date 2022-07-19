@@ -1,6 +1,7 @@
 ﻿using System;
 using HelloWorld;
 using DataTypes;
+using Operators;
 
 namespace csharp_learner
 {
@@ -12,6 +13,8 @@ namespace csharp_learner
             greet.GreetUser();
             Data data = new Data();
             data.Declare();
+            Logic logic = new Logic();
+            logic.Run();
         }
     }
 }
