@@ -2,6 +2,7 @@
 using HelloWorld;
 using DataTypes;
 using Operators;
+using Flow;
 
 namespace csharp_learner
 {
@@ -32,6 +33,9 @@ namespace csharp_learner
             // (single-line comment) The use of operators - object
             Logic logic = new Logic();
             logic.Run();
+            // (single-line comment) The condition statement - object
+            Conditions condition = new Conditions();
+            condition.Checker();
         }
     }
 }
