@@ -36,6 +36,9 @@ namespace csharp_learner
             // (single-line comment) The condition statement - object
             Conditions condition = new Conditions();
             condition.Checker();
+            // (single-line comment) The loop statement - object
+            Loops loop = new Loops();
+            loop.Iterate();
         }
     }
 }
