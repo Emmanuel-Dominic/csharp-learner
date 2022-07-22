@@ -3,6 +3,7 @@ using HelloWorld;
 using DataTypes;
 using Operators;
 using Flow;
+using StringFormat;
 
 namespace csharp_learner
 {
@@ -42,6 +43,9 @@ namespace csharp_learner
             // (single-line comment) The exception handling - object
             Exceptions exceptions = new Exceptions();
             exceptions.Catch();
+            // (single-line comment) The string formating statements - object
+            Formating formating = new Formating();
+            formating.Excute();
         }
     }
 }
