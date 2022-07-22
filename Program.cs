@@ -39,6 +39,9 @@ namespace csharp_learner
             // (single-line comment) The loop statement - object
             Loops loop = new Loops();
             loop.Iterate();
+            // (single-line comment) The exception handling - object
+            Exceptions exceptions = new Exceptions();
+            exceptions.Catch();
         }
     }
 }
