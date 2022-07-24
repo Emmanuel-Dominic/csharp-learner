@@ -4,6 +4,7 @@ using DataTypes;
 using Operators;
 using Flow;
 using StringFormat;
+using Strings;
 
 namespace csharp_learner
 {
@@ -44,8 +45,8 @@ namespace csharp_learner
             Exceptions exceptions = new Exceptions();
             exceptions.Catch();
             // (single-line comment) The string formating statements - object
-            Formating formating = new Formating();
-            formating.Excute();
+            Builder builder = new Builder();
+            builder.Renovate();
         }
     }
 }
