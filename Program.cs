@@ -5,6 +5,7 @@ using Operators;
 using Flow;
 using StringFormat;
 using Strings;
+using Functions;
 
 namespace csharp_learner
 {
@@ -47,6 +48,9 @@ namespace csharp_learner
             // (single-line comment) The string formating statements - object
             Builder builder = new Builder();
             builder.Renovate();
+            // (single-line comment) The function basics - object
+            Basics basics = new Basics();
+            basics.Run();
         }
     }
 }
