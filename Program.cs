@@ -51,6 +51,9 @@ namespace csharp_learner
             // (single-line comment) The function basics - object
             Basics basics = new Basics();
             basics.Run();
+            // (single-line comment) The reference and out parameter function - object
+            RefAndParam refAndParam = new RefAndParam();
+            refAndParam.Run();
         }
     }
 }
