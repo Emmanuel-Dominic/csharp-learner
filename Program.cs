@@ -6,6 +6,7 @@ using Flow;
 using StringFormat;
 using Strings;
 using Functions;
+using Classes.Defining;
 
 namespace csharp_learner
 {
@@ -54,6 +55,17 @@ namespace csharp_learner
             // (single-line comment) The reference and out parameter function - object
             RefAndParam refAndParam = new RefAndParam();
             refAndParam.Run();
+
+            // create new object instances using the "new" operator
+            Book b1 = new Book("War and Peace", "Leo Tolstoy", 825, true);
+            Book b2 = new Book("The Grapes of Wrath", "John Steinbeck", 464, true);
+            // call amethod on the obect
+            Console.WriteLine(b1.GetDescription());
+            Console.WriteLine(b2.GetDescription());
+            // try to set one of the properties, this will result in an error
+            // b1._name = "Aldous Huxley"; // 'Book._name' is inaccessible due to its protection level
+            b1._published = false;
+            Console.WriteLine(b1.GetDescription());
         }
     }
 }

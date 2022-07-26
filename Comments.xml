@@ -4,6 +4,72 @@
         <name>csharp-learner</name>
     </assembly>
     <members>
+        <member name="T:Classes.Defining.Book">
+            <summary>
+            Represents a book with title, author, published, and page count.
+            </summary>
+        </member>
+        <member name="F:Classes.Defining.Book._published">
+            <summary>
+            Flag indicating whether the book is published.
+            </summary>
+        </member>
+        <member name="F:Classes.Defining.Book._author">
+            <summary>
+            The author of the book.
+            </summary>
+        </member>
+        <member name="M:Classes.Defining.Book.#ctor(System.String,System.String,System.Int32,System.Boolean)">
+            <summary>
+            Initializes a new instance of the Book class.
+            </summary>
+            <param name="name">The title of the book.</param>
+            <param name="published">The published status of the book.</param>
+            <param name="author">The author of the book.</param>
+            <param name="pages">The number of pages in the book.</param>
+        </member>
+        <member name="M:Classes.Defining.Book.GetDescription">
+            <summary>
+            Gets a brief description of the book.
+            </summary>
+            <returns>A string containing the book's title and author.</returns>
+        </member>
+        <member name="M:Classes.Defining.Book.GetName">
+            <summary>
+            Gets the book's name.
+            </summary>
+            <returns>The book's name.</returns>
+        </member>
+        <member name="M:Classes.Defining.Book.setName(System.String)">
+            <summary>
+            Sets the book's name.
+            </summary>
+            <param name="name">The new name for the book.</param>
+        </member>
+        <member name="M:Classes.Defining.Book.GetAuthor">
+            <summary>
+            Gets the book's author.
+            </summary>
+            <returns>The book's author.</returns>
+        </member>
+        <member name="M:Classes.Defining.Book.setAuthor(System.String)">
+            <summary>
+            Sets the book's author.
+            </summary>
+            <param name="author">The new author for the book.</param>
+        </member>
+        <member name="M:Classes.Defining.Book.GetPageCount">
+            <summary>
+            Gets the book's page count.
+            </summary>
+            <returns>The book's page count.</returns>
+        </member>
+        <member name="M:Classes.Defining.Book.setPageCount(System.Int32)">
+            <summary>
+            Sets the book's page count.
+            </summary>
+            <param name="pages">The new page count for the book.</param>
+        </member>
         <member name="M:csharp_learner.Program.Main(System.String[])">
             XML Comment used to help provide documentation, with the below syntax
             for more visit: https://docs.microsoft.com/en-us/dotnet/csharp/codedoc
