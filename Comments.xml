@@ -70,6 +70,80 @@
             </summary>
             <param name="pages">The new page count for the book.</param>
         </member>
+        <member name="T:Classes.Inheritance.Animal">
+            <summary>
+            Represents an animal with a name and action.
+            </summary>
+        </member>
+        <member name="P:Classes.Inheritance.Animal.Name">
+            <summary>
+            Gets or sets the animal's name.
+            </summary>
+        </member>
+        <member name="M:Classes.Inheritance.Animal.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the Animal class.
+            </summary>
+            <param name="name">The animal's name.</param>
+            <param name="action">The animal's action.</param>
+        </member>
+        <member name="P:Classes.Inheritance.Animal.Action">
+            <summary>
+            Gets or sets the animal's action.
+            </summary>
+        </member>
+        <member name="M:Classes.Inheritance.Animal.Eat">
+            <summary>
+            Prints the animal's action to the console.
+            </summary>
+        </member>
+        <member name="M:Classes.Inheritance.Animal.Description">
+            <summary>
+            Returns a string representation of the animal.
+            </summary>
+            <returns>A string containing the animal's name and action.</returns>
+        </member>
+        <member name="M:Classes.Inheritance.Animal.ToString">
+            <summary>
+            Returns a string representation of the animal.
+            </summary>
+            <returns>A string containing the Animal's name and action.</returns>
+        </member>
+        <member name="M:Classes.Inheritance.Animal.ToString(System.Char)">
+            <summary>
+            Returns a string representation of the animal.
+            </summary>
+            <returns>A string containing the Animal's name and action.</returns>
+        </member>
+        <member name="T:Classes.Inheritance.Dog">
+            <summary>
+            Represents a dog, inheriting from Animal.
+            </summary>
+        </member>
+        <member name="M:Classes.Inheritance.Dog.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the Dog class.
+            </summary>
+            <param name="name">The dog's name.</param>
+            <param name="action">The dog's action.</param>
+            <param name="sound">The dog's sound.</param>
+        </member>
+        <member name="P:Classes.Inheritance.Dog.Sound">
+            <summary>
+            Gets or sets the dog's sound.
+            </summary>
+        </member>
+        <member name="M:Classes.Inheritance.Dog.Bark">
+            <summary>
+            Prints the dog's sound to the console.
+            </summary>
+        </member>
+        <member name="M:Classes.Inheritance.Dog.Description">
+            <summary>
+            Returns a string representation of the dog.
+            </summary>
+            <returns>A string containing the dog's name, action and sound.</returns>
+        </member>
         <member name="M:csharp_learner.Program.Main(System.String[])">
             XML Comment used to help provide documentation, with the below syntax
             for more visit: https://docs.microsoft.com/en-us/dotnet/csharp/codedoc

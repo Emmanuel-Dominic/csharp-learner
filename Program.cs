@@ -7,6 +7,7 @@ using StringFormat;
 using Strings;
 using Functions;
 using Classes.Defining;
+using Classes.Inheritance;
 
 namespace csharp_learner
 {
@@ -66,6 +67,32 @@ namespace csharp_learner
             // b1._name = "Aldous Huxley"; // 'Book._name' is inaccessible due to its protection level
             b1._published = false;
             Console.WriteLine(b1.GetDescription());
+            
+            // Every class in c# inherits from Object, which means that every class inherits the ToString() method
+            int x = 1000;
+            Console.WriteLine(x.ToString());
+
+            // If you don't override the method, the default behavior just prints the name of the class and the namespace
+            object a = new object();
+            Console.WriteLine(a.ToString());
+
+            Animal animal = new Animal("Jam", "Eating...");
+            Console.WriteLine(animal.Action);
+            Console.WriteLine(animal);
+            Console.WriteLine(animal.Name);
+            animal.Name = "Sober";
+            animal.Eat();
+            Console.WriteLine(animal.Description());
+            Console.WriteLine(animal.ToString());
+
+            Dog myDog = new Dog("Fido", "Barking...", "Woof!");
+            myDog.Name = "Figo";
+            myDog.Eat(); // Inherited from Animal
+            myDog.Bark(); // Specific to Dog
+            Console.WriteLine(myDog.Description());
+            Console.WriteLine(myDog.ToString());
+            Console.WriteLine(myDog.ToString('B'));
+            Console.WriteLine(myDog.ToString('F'));
         }
     }
 }
