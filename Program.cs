@@ -93,6 +93,9 @@ namespace csharp_learner
             Console.WriteLine(myDog.ToString());
             Console.WriteLine(myDog.ToString('B'));
             Console.WriteLine(myDog.ToString('F'));
+
+            Multiple multiple = new Multiple();
+            multiple.Run();
         }
     }
 }
